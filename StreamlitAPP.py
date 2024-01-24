@@ -10,7 +10,7 @@ from src.mcqgenerator.utils import read_file, get_table_data
 from src.mcqgenerator.MCQGenerator import generate_evaluate_chain
 from src.mcqgenerator.logger import logging
 
-with open(r"D:\Mentorship\Gen AI\mcqgenerator\Response.json", 'r') as file:
+with open(r"Response.json", 'r') as file:
     RESPONSE_JSON = json.load(file)
 
 #creating title for app
